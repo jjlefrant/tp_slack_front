@@ -1,0 +1,24 @@
+<h1 class="text-center">Mini-Slack</h1>
+<div *ngIf="this.UserService.user">
+  <p>utilisateur connecté</p>
+
+  <app-threads></app-threads>
+</div>
+
+<div *ngIf="!this.UserService.user">
+  <!-- <label for="nom">Nom :</label> -->
+
+  <div class="row h-100 justify-content-center align-items-center">
+    <div class="card" style="width: 18rem">
+      <div class="card-body">
+        <input type="text" [(ngModel)]="this.username" (keyup.enter)="this.UserService.login(this.username)"/>
+
+        <p>Entrer votre nom d'utilisateur : {{ this.username }}</p>
+
+        <button type="submit" (click)="this.UserService.login(this.username)">
+          Connexion
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

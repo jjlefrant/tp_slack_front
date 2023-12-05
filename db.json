@@ -1,0 +1,269 @@
+{
+  "users": [
+    {
+      "username": "Kenza",
+      "id": 1
+    },
+    {
+      "username": "Kenza",
+      "id": 2
+    },
+    {
+      "username": "Kenza",
+      "id": 3
+    },
+    {
+      "username": "kenza",
+      "id": 4
+    },
+    {
+      "username": "",
+      "id": 5
+    },
+    {
+      "username": "hujk",
+      "id": 6
+    },
+    {
+      "username": "toto",
+      "id": 7
+    },
+    {
+      "username": "toto",
+      "id": 8
+    },
+    {
+      "username": "hgytg",
+      "id": 9
+    },
+    {
+      "username": "hgytg",
+      "id": 10
+    },
+    {
+      "username": "hgytg",
+      "id": 11
+    },
+    {
+      "username": "hgytg",
+      "id": 12
+    },
+    {
+      "username": "hgytg",
+      "id": 13
+    },
+    {
+      "username": "test",
+      "id": 14
+    },
+    {
+      "username": "toto",
+      "id": 15
+    },
+    {
+      "username": "toto",
+      "id": 16
+    },
+    {
+      "username": "toto",
+      "id": 17
+    },
+    {
+      "username": "toto",
+      "id": 18
+    },
+    {
+      "username": "toto",
+      "id": 19
+    },
+    {
+      "username": "toto",
+      "id": 20
+    },
+    {
+      "username": "toto",
+      "id": 21
+    },
+    {
+      "username": "toto",
+      "id": 22
+    },
+    {
+      "username": "toto",
+      "id": 23
+    },
+    {
+      "username": "toto",
+      "id": 24
+    },
+    {
+      "username": "toto",
+      "id": 25
+    },
+    {
+      "username": "toto",
+      "id": 26
+    },
+    {
+      "username": "toto*",
+      "id": 27
+    },
+    {
+      "username": "toto",
+      "id": 28
+    },
+    {
+      "username": "toto",
+      "id": 29
+    },
+    {
+      "username": "toto",
+      "id": 30
+    },
+    {
+      "username": "toto",
+      "id": 31
+    },
+    {
+      "username": "toto",
+      "id": 32
+    },
+    {
+      "username": "toto",
+      "id": 33
+    },
+    {
+      "username": "toto",
+      "id": 34
+    },
+    {
+      "username": "toto",
+      "id": 35
+    },
+    {
+      "username": "toto",
+      "id": 36
+    },
+    {
+      "username": "toto",
+      "id": 37
+    },
+    {
+      "username": "TOTO",
+      "id": 38
+    },
+    {
+      "username": "",
+      "id": 39
+    },
+    {
+      "username": "toto",
+      "id": 40
+    },
+    {
+      "username": "",
+      "id": 41
+    },
+    {
+      "username": "toto",
+      "id": 42
+    },
+    {
+      "username": "toto",
+      "id": 43
+    },
+    {
+      "username": "toto",
+      "id": 44
+    },
+    {
+      "username": "toto",
+      "id": 45
+    },
+    {
+      "username": "toto",
+      "id": 46
+    },
+    {
+      "username": "toto",
+      "id": 47
+    },
+    {
+      "username": "toto",
+      "id": 48
+    },
+    {
+      "username": "toto",
+      "id": 49
+    },
+    {
+      "username": "toto",
+      "id": 50
+    },
+    {
+      "username": "toto",
+      "id": 51
+    }
+  ],
+  "messages": [
+    {
+      "content": "Premier message dans la discussion générale !",
+      "authorId": "Kenza",
+      "threadId": "1",
+      "id": 1
+    },
+    {
+      "content": "Salut, je suis la première sur le channel Projets !",
+      "authorId": "Kenza",
+      "threadId": "2",
+      "id": 2
+    },
+    {
+      "content": "message test",
+      "authorId": "toto",
+      "threadId": "1",
+      "id": 3
+    },
+    {
+      "content": "message 2",
+      "authorId": "toto",
+      "threadId": "1",
+      "id": 5
+    },
+    {
+      "content": "message",
+      "authorId": "toto",
+      "threadId": "1",
+      "date": "Fri Dec 01 2023 15:16:13 GMT+0100 (heure normale d’Europe centrale)",
+      "id": 6
+    },
+    {
+      "content": "message",
+      "authorId": "toto",
+      "threadId": "1",
+      "date": "Fri Dec 01 2023 15:16:14 GMT+0100 (heure normale d’Europe centrale)",
+      "id": 7
+    },
+    {
+      "content": "toto",
+      "authorId": "toto",
+      "threadId": "1",
+      "date": "2023-12-01T14:20:55.087Z",
+      "id": 8
+    }
+  ],
+  "threads": [
+    {
+      "id": "1",
+      "label": "Discussion Générale"
+    },
+    {
+      "id": "2",
+      "label": "Projets"
+    },
+    {
+      "id": "3",
+      "label": "autre"
+    }
+  ]
+}
