@@ -1,6 +1,27 @@
-.container {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr;
-    grid-gap: 10px;
-  }
+.message-content {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.message-content p {
+    margin: 0; /* Réinitialise les marges par défaut des paragraphes */
+}
+
+.message-metadata {
+    display: flex;
+    flex-direction: row; /* Aligne les éléments en colonne */
+    align-items: flex-end; /* Aligne les éléments à droite */
+    gap: 20px;
+}
+
+.message-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Aligne les éléments en haut */
+
+    border-top: 1px solid #ccc;
+    padding: 15px;
+    width: 54vw;
+}

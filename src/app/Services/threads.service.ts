@@ -1,11 +1,8 @@
-// Les differents imports
-
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 
-// Votre interface
 export interface Thread {
-    id:string;
+    id:number;
     label:string;
 }
 
@@ -26,7 +23,7 @@ export class ThreadsService {
     }
 
     // Les différentes requêtes HTTP
-    getThread(id: string) {
+    getThread(id: number) {
         return this.http.get(`http://localhost:3000/threads/${id}`);
     } 
 
@@ -38,7 +35,7 @@ export class ThreadsService {
         return this.http.put(`http://localhost:3000/threads/${thread.id}`, thread);
     }
 
-    deleteThread(id: string) {
+    deleteThread(id: number) {
         return this.http.delete(`http://localhost:3000/threads/${id}`);
     }
 }

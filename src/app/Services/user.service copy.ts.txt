@@ -1,13 +1,11 @@
 // Import des modules HttpClient et Injectable depuis Angular
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import { Message } from "./messages.service";
 
 // Définition de l'interface User représentant la structure d'un utilisateur
 export interface User {
     id: number;
-    name: string;
-    message: Message[]
+    username: string;
 }
 
 // Décorateur Injectable indiquant que le service peut être injecté au niveau racine
@@ -44,9 +42,5 @@ export class UserService {
     logout() {
         // Réinitialisation de la propriété user à undefined
         this.user = undefined;
-    }
-
-    getUsers() {
-        return this.http.get(`http://localhost:3000/users`);
     }
 }

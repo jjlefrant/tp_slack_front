@@ -3,10 +3,10 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 
 export interface Message {
-    id : string
+    id : number
     content : string
-    authorId : string
-    date : string
+    authorId : number
+    date : Date
     threadId : string
 }
 
@@ -24,11 +24,11 @@ export interface Message {
         return this.http.get('http://localhost:3000/messages');
         }
         
-        getMessages(id: string){
+        getMessages(id: number){
             return this.http.get(`http://localhost:3000/messages/${id}`)
         }
         
-        getMessagesByThreadId(threadId: string){
+        getMessagesByThreadId(threadId: number){
             return this.http.get(`http://localhost:3000/messages?threadId=${threadId}`)
         }
 
@@ -40,7 +40,7 @@ export interface Message {
             return this.http.put(`http://localhost:3000/messages/${message.id}`, message )
         }
                     
-        deleteMessage(id: string){
+        deleteMessage(id: number){
              return this.http.delete(`http://localhost:3000/messages/${id}`)
         }
     }

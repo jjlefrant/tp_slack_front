@@ -1,0 +1,15 @@
+.degrade-fond {
+    background: linear-gradient(to bottom,  rgb(170, 14, 170), #43cfe2);
+    text-align: center;
+    color: rgb(255, 245, 245); 
+    padding: 80px; /* Ajoutez une marge intérieure pour l'esthétique */
+}
+
+
+.maclasse {
+    height: 100vh;
+}
+
+.text_gauche{
+    text-align: left;
+}

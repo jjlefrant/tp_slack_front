@@ -1,23 +1,31 @@
-<h1 class="text-center">Mini-Slack</h1>
-<div *ngIf="this.UserService.user">
-  <p>utilisateur connecté</p>
+<div class="degrade-fond">
+  <div class="text-center">
+    <h1>Mini-Slack</h1>
+    <div *ngIf="this.UserService.user">
+      <p class="text_gauche">{{ this.username }} est connecté</p>
 
-  <app-threads></app-threads>
-</div>
+      <app-threads></app-threads>
+    </div>
 
-<div *ngIf="!this.UserService.user">
-  <!-- <label for="nom">Nom :</label> -->
+    <div *ngIf="!this.UserService.user">
+      <!-- <label for="nom">Nom :</label> -->
 
-  <div class="row h-100 justify-content-center align-items-center">
-    <div class="card" style="width: 18rem">
-      <div class="card-body">
-        <input type="text" [(ngModel)]="this.username" (keyup.enter)="this.UserService.login(this.username)"/>
+      <div class="row h-100 justify-content-center align-items-center">
+        <div class="card" style="width: 18rem">
+          <div class="card-body">
+            <p>Entrer votre nom d'utilisateur :</p>
+            <input
+              type="text"
+              [(ngModel)]="this.username"
+              (keyup.enter)="this.UserService.login(this.username)"
+            />
+                <br>
+                <br>
 
-        <p>Entrer votre nom d'utilisateur : {{ this.username }}</p>
 
-        <button type="submit" (click)="this.UserService.login(this.username)">
-          Connexion
-        </button>
+            <button type="submit" (click)="this.UserService.login(this.username)">Connexion </button>
+          </div>
+        </div>
       </div>
     </div>
   </div>

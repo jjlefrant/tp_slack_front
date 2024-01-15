@@ -5,7 +5,7 @@
 
 <div class = "message-container">
 
-<div class ="message-content"><p>{{this.username}}</p> 
+<div class ="message-content"><p>{{this.message.authorId}}</p> 
 <pre> : </pre>    
 <p>{{this.message.content}}</p>
 </div>
